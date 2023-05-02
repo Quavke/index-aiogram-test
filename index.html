@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title> 
-</head>
-<body>
-    </div id="main"> 
-        <h1>Онлайн магазин</h1>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fru%2Fpng-wmzbi&psig=AOvVaw2Ieblm7gT_tsAteoXUBFLm&ust=1683104910229000&source=images&cd=vfe&ved=0CBIQjhxqFwoTCKCf1sOk1v4CFQAAAAAdAAAAABAE">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicign elit. Accusacntium magni, molestias.</p>
-        <button id="buy">Купить</button>
+    <title>Магазин</title>
+    <style>
+      /* Стили для кнопки */
+      .buy-button {
+        display: inline-block;
+        background-color: green;
+        color: white;
+        font-size: 24px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .buy-button:hover {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Магазин</h1>
+      <button class="buy-button" onclick="location.href='checkout.html'">Купить</button>
     </div>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-</body>
+  </body>
 </html>
